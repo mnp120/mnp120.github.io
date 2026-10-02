@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #f7f7f5; color: #222; line-height: 1.6; }
+nav { background: #cc0033; padding: 16px 24px; position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; z-index: 10; }
+nav .name { color: #fff; font-weight: 700; font-size: 18px; text-decoration: none; }
+nav a { color: #fff; text-decoration: none; margin-left: 20px; font-size: 15px; }
+nav a:hover { text-decoration: underline; }
+.container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+header { padding: 80px 0 60px; text-align: center; }
+header h1 { font-size: 40px; margin-bottom: 16px; }
+header p { font-size: 20px; color: #555; max-width: 700px; margin: 0 auto; }
+section { padding: 50px 0; }
+h2 { font-size: 28px; margin-bottom: 24px; border-bottom: 3px solid #cc0033; display: inline-block; padding-bottom: 4px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.card h3 { margin-bottom: 10px; font-size: 18px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag { background: #fce8ec; color: #990026; padding: 4px 12px; border-radius: 20px; font-size: 14px; }
+.card p { color: #555; margin-bottom: 14px; }
+.card a, .content a, footer a { color: #cc0033; font-weight: 600; text-decoration: none; }
+.card a:hover, .content a:hover { text-decoration: underline; }
+.content { background: #fff; border-radius: 10px; padding: 32px; margin: 40px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.content h1 { font-size: 32px; margin-bottom: 8px; }
+.content .meta { color: #777; margin-bottom: 24px; }
+.content h3 { margin: 24px 0 8px; }
+.content ul { margin-left: 20px; color: #444; }
+.content li { margin-bottom: 6px; }
+.content p { color: #444; margin-bottom: 12px; }
+footer { text-align: center; padding: 40px 20px; color: #777; font-size: 14px; }
+@media (max-width: 600px) { nav a { margin-left: 12px; } header h1 { font-size: 30px; } header p { font-size: 17px; } }
